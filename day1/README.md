@@ -1,4 +1,5 @@
-# 100daysofcode day1
+## 100_Days_of_code 
+## Day1
 
 This is a personal portfolio website showcasing my skills, projects, achievements, and certifications as an aspiring software engineer and frontend developer.
 
