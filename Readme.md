@@ -63,5 +63,5 @@ I will maintain a **log of what I learned each day** here.
 
 # Follow my journey and feel free to star or fork this repo!
 
-Started On: July 18, 2025
-Planned Completion: October 25, 2025
+- Started On: July 18, 2025
+- Planned Completion: October 25, 2025
