@@ -1,57 +1,26 @@
-# 100daysofcode day1
+# 100 Days of Code - Day 1: Personal Portfolio Website
 
-This is a personal portfolio website showcasing my skills, projects, achievements, and certifications as an aspiring software engineer and frontend developer.
+This is a personal portfolio website showcasing my skills, projects, achievements, and certifications as an aspiring software engineer and frontend developer. This project marks the first day of my 100 Days of Code challenge.
 
 ## Features
 
-*   Responsive design
-*   Navigation to different sections (Home, About, Projects, Achievements, Certifications, Contact)
-*   Smooth scrolling
-*   Contact form that opens the default email client
-*   Links to social profiles (LinkedIn)
+*   **Responsive Design:** The website is fully responsive and works on all devices.
+*   **Navigation:** A navigation bar allows users to easily navigate to different sections of the portfolio.
+*   **Sections:** The portfolio is divided into the following sections:
+    *   **Home:** A brief introduction to who I am.
+    *   **About:** A more detailed description of my skills and experience.
+    *   **Projects:** A showcase of my recent projects.
+    *   **Achievements:** A list of my notable achievements.
+    *   **Certifications:** A list of my certifications.
+    *   **Contact:** A contact form that opens the default email client.
+*   **Social Media Links:** Links to my LinkedIn profile.
 
-## About Me
+## Technologies Used
 
-Aspiring software engineer eager to gain practical experience through an internship. Skilled in programming, problem-solving, and IT systems, with a passion for innovation and learning in a professional environment.
-
-## Technologies and Skills
-
-*   **Frontend:** HTML, CSS, JavaScript, React, Tailwind CSS, Bootstrap
-*   **Backend:** Node.js, Express, MongoDB
-*   **Programming Languages:** Python, Java, C++
-*   **Other:** Git, Data Structures, Algorithms
-
-## Projects
-
-### Phone Store App
-A comprehensive Python-based application to simulate a virtual phone store. Features include browsing phone models, adding products to a cart, calculating total price, and generating bills.
-
-### Amazon Website Clone
-A responsive clone of the Amazon website built using HTML and CSS, demonstrating modern web design principles.
-
-### MERN Stack Project
-A full-stack web application built with MongoDB, Express, React, and Node.js, showcasing full-stack development capabilities.
-
-## Achievements
-
-*   **NEC E-Cell Task:** Achieved 86th place among 5,000 teams in a national entrepreneurship and innovation competition.
-*   **Inaugural Entrepreneurship Cell (E-Cell):** Established the first E-Cell at my college, fostering innovation and entrepreneurial mindset among students.
-
-## Certifications
-
-*   Ethical Hacker (Cisco - Jul 2025)
-*   AI for All: From Basics to GenAI Practice (NVIDIA - Jun 2025)
-*   AWS APAC - Solutions Architecture Job Simulation (Forage - Jun 2025)
-*   Artificial Intelligence for Cybersecurity (LinkedIn - Jun 2025)
-*   Basics of Customer Relationship Management (UniAthena - Jun 2025)
-*   Become a Machine learning Engineer (Scaler - Jun 2025)
-*   Introduction to MS Excel (Simplilearn - Jun 2025)
-*   Tata Group - GenAI Powered Data Analytics Job Simulation (Forage - Jun 2025)
-*   Python (Scaler - Jun 2024)
-*   NEC '24 Basic Track - Participation (E-Cell, IIT Bombay - Mar 2024)
+*   **HTML5:** For the structure and content of the website.
+*   **CSS3:** For styling and layout.
 
 ## How to Use
 
 1.  Clone the repository.
-2.  Open the `portfolio.html` file in your browser.
-3.  The contact form is configured to open your default email client with `adityaprataps406@gmail.com` as the recipient.
+2.  Open the `portfolio.html` file in your web browser.
