@@ -1,4 +1,4 @@
-# 100 Days of Code - Day 1: Personal Portfolio Website
+# 100daysofcode day1
 
 This is a personal portfolio website showcasing my skills, projects, achievements, and certifications as an aspiring software engineer and frontend developer. This project marks the first day of my 100 Days of Code challenge.
 
@@ -23,4 +23,5 @@ This is a personal portfolio website showcasing my skills, projects, achievement
 ## How to Use
 
 1.  Clone the repository.
-2.  Open the `portfolio.html` file in your web browser.
+2.  Open the `portfolio.html` file in your browser.
+3.  The contact form is configured to open your default email client with `adityaprataps406@gmail.com` as the recipient.
