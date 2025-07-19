@@ -24,7 +24,7 @@ const cart = {
                 console.log('Cart icon clicked.');
                 document.getElementById('cartModal').classList.add('active');
                 document.getElementById('modalOverlay').classList.add('active');
-                document.querySelector('.cart-count').textContent = totalItems; // Revert temporary visual indicator
+                document.querySelector('.cart-count').textContent = totalItems;
             });
         
         document.querySelector('.close-btn').addEventListener('click', () => {
@@ -40,7 +40,6 @@ const cart = {
 
         document.querySelector('.checkout-btn').addEventListener('click', () => {
             alert('Proceeding to checkout!');
-            // Here you would typically redirect to a checkout page or process the order
         });
 
         document.querySelector('.clear-cart-btn').addEventListener('click', () => {
@@ -71,7 +70,7 @@ const cart = {
                     name,
                     price,
                     quantity: 1,
-                    img: img || 'https://via.placeholder.com/70x70?text=No+Image' // Default image if none provided
+                    img: img || 'https://via.placeholder.com/70x70?text=No+Image'
                 });
                 console.log('Added new item:', this.items[this.items.length - 1]);
             }
@@ -108,7 +107,7 @@ const cart = {
     
     renderCartItems() {
         const cartItemsContainer = document.querySelector('.cart-items-container');
-        cartItemsContainer.innerHTML = ''; // Clear existing items
+        cartItemsContainer.innerHTML = ''; 
         
         if (this.items.length === 0) {
             cartItemsContainer.innerHTML = '<p class="empty-cart-message">Your cart is empty.</p>';
@@ -134,7 +133,7 @@ const cart = {
             cartItemsContainer.appendChild(itemElement);
         });
 
-        // Add event listeners for quantity buttons and remove button
+        // Add buttons and remove button
         cartItemsContainer.querySelectorAll('.quantity-btn.decrease').forEach(button => {
             button.addEventListener('click', (e) => {
                 const name = e.target.dataset.name;
@@ -174,13 +173,13 @@ const cart = {
         cartIcon.classList.add('added');
         setTimeout(() => {
             cartIcon.classList.remove('added');
-        }, 500); // Match this duration with the CSS animation duration
+        }, 500); 
         
         // Add particle effect
         const particle = document.createElement('div');
         particle.className = 'cart-particle';
         document.body.appendChild(particle);
-        setTimeout(() => particle.remove(), 800); // Match this duration with the CSS animation duration
+        setTimeout(() => particle.remove(), 800); 
     },
 
     saveCart() {
