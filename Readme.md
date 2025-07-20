@@ -26,7 +26,7 @@ Each day will have its own folder:
 │
 ├── Day1/ # Portfolio Website (HTML + CSS)
 ├── Day2/ # Watch Store
-├── Day3/ # DSA Water Filling
+├── Day3/ # Day 3: Interactive Trapping Rain Water Visualizer 
 ...
 └── Day100/
 
