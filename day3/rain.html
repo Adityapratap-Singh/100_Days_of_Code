@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Trapping Rain Water Visualizer</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Trapping Rain Water - Interactive Visualizer</h1>
+    <p>
+      Famous DSA Interview Problem (LeetCode #42, Hard).  
+      Enter an array or choose a preset, then explore how the algorithm works step by step!
+    </p>
+  </header>
+
+  <section class="controls">
+    <input id="inputHeights" type="text" value="0,1,0,2,1,0,1,3,2,1,2,1">
+    <button onclick="generateBars()">Generate Bars</button>
+    <button onclick="startQuickMode()">Quick Mode</button>
+    <button onclick="startTutorialMode()">Tutorial Mode</button>
+    <button onclick="restartAnimation()">Restart</button>
+    <div class="presets">
+      <button onclick="setPreset('easy')">Easy</button>
+      <button onclick="setPreset('medium')">Medium</button>
+      <button onclick="setPreset('hard')">Hard</button>
+    </div>
+  </section>
+
+  <main>
+    <div class="bar-area">
+      <div id="bars" class="bar-container"></div>
+    </div>
+    <aside class="side-panel">
+      <h2 id="stepTitle">Step-by-Step Explanation</h2>
+      <p id="progress">Step 0 of 0</p>
+      <div id="stepLog" class="log-box"></div>
+      <div class="tutorial-controls">
+        <label>Speed (seconds per step): 
+          <input id="speedControl" type="number" min="1" max="10" value="10">
+        </label>
+        <button onclick="nextStep()">Next Step</button>
+      </div>
+      <h3 id="result">Total Water: 0</h3>
+    </aside>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
