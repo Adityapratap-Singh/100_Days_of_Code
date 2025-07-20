@@ -25,8 +25,8 @@ Each day will have its own folder:
 100_Days_of_Code/
 │
 ├── Day1/ # Portfolio Website (HTML + CSS)
-├── Day2/ # Will include JS interactivity (smooth scroll, sticky navbar, etc.)
-├── Day3/
+├── Day2/ # Watch Store
+├── Day3/ # DSA Water Filling
 ...
 └── Day100/
 
