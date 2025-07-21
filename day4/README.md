@@ -32,11 +32,10 @@ It uses a **pixel-style font** ("Bitcount Grid Single") to complement the **came
 
 ## 📂 How to Run Locally
 1. Clone the repository:
-   ```h
    git clone https://github.com/Adityapratap-Singh/100_Days_of_Code.git
-Navigate to the Day 4 folder:
-cd 100_Days_of_Code/day4
-Open proj1.html in your browser.
+   Navigate to the Day 4 folder:
+      cd 100_Days_of_Code/day4
+      Open proj1.html in your browser.
 
 📅 About This Challenge
 I’m building 100 projects in 100 days to sharpen my frontend and full-stack development skills.
