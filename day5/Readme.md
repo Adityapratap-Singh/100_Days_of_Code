@@ -18,7 +18,7 @@ It uses **CSS Grid** to create a **clean, flexible layout** with a top navbar, s
 ---
 
 ## 📸 Preview
-![Layout Screenshot](screenshot.png)  
+<img width="1919" height="984" alt="image" src="https://github.com/user-attachments/assets/446e0906-0055-4321-b4d4-d178e06c8e23" />  
 *(A sample view of the layout with labeled sections)*
 
 ---
@@ -34,13 +34,9 @@ It uses **CSS Grid** to create a **clean, flexible layout** with a top navbar, s
 1. Clone the repository:
    ```bash
    git clone https://github.com/Adityapratap-Singh/100_Days_of_Code.git
-Navigate to the Day 5 folder:
-
-bash
-Copy
-Edit
-cd 100_Days_of_Code/day5
-Open demo.html in your browser.
+- Navigate to the Day 5 folder:
+- cd 100_Days_of_Code/day5
+- Open demo.html in your browser.
 
 💡 Use Cases
 Streaming App Template (like Spotify/YouTube-style layouts)
@@ -55,5 +51,5 @@ Any responsive grid-based project
 I’m building 100 projects in 100 days to improve my frontend and full-stack development skills.
 Each project is unique — from small UI components to full apps.
 
-Follow my journey on LinkedIn
+Follow my journey on https://www.linkedin.com/in/adityapratap-singh-447159215/ !
 
